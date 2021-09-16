@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Mout\Auth;
+namespace Mout\Auth\Test;
 
 
 use Mout\Auth\App\Console\Commands\Install;
