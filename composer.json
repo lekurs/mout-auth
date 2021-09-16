@@ -21,7 +21,7 @@
     "autoload": {
         "psr-4": {
             "Mout\\Auth\\": "packages/mout/auth/src/",
-            "App\\Http\\Controllers\\Auth\\": "packages/mout/auth/src/App/Http/Controllers"
+            "App\\Http\\Controllers\\Auth\\": "app/Http/Controllers/Auth"
         }
     }
 }
