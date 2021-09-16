@@ -1,0 +1,26 @@
+{
+    "name": "mout/auth",
+    "description": "Simplified integration of laravel authentication",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mout",
+            "email": "hello@moutwebagency.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mout\\Auth\\AuthServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Mout\\Auth\\": "src/"
+        }
+    }
+}
