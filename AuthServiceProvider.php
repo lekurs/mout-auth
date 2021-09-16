@@ -27,6 +27,7 @@ class AuthServiceProvider extends ServiceProvider
         $this->loadViewsFrom(__DIR__ . '/resources/views', 'laravel-auth');
         $this->loadTranslationsFrom(__DIR__ . '/resources/lang', 'laravel-auth');
         $this->publishes([
+            __DIR__ . 'AuthServiceProvider.php',
             __DIR__ . '/App/Http/Controllers/Auth' => app_path('Http/Controllers/Auth'),
             __DIR__ . '/App/Http/Requests/Auth' => app_path('Http/Requests/Auth'),
             __DIR__ . '/App/Notifications/Auth' => app_path('Notifications/Auth'),
