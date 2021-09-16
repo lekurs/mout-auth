@@ -14,7 +14,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Mout\\Auth\\AuthServiceProvider"
+
             ]
         }
     },
