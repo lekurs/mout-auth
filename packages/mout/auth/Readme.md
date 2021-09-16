@@ -8,7 +8,7 @@ Laravel-auth is installed via the package manager composer
 
 ``composer require mout/auth``
 
-you must then publish all the files via the command ``php artisan laravel-auth:install``
+you must then publish all the files via the command ``php artisan mout-auth:install``
 
 Then you have to install the packages necessary for the proper functioning of the frontend
 
