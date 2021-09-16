@@ -6,7 +6,7 @@ Laravel-auth provide ready-to-use authentication and allow you to easily customi
 
 Laravel-auth is installed via the package manager composer
 
-``composer require helixar/laravel-auth``
+``composer require mout/auth``
 
 you must then publish all the files via the command ``php artisan laravel-auth:install``
 
